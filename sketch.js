@@ -17,7 +17,7 @@ const Engine = Matter.Engine;
 	
 	paperObject=new paper(200,450,70);
 	groundObject=new ground(width/2,670,width,20);
-	dustbinObj=new dustbin(1200,650);
+	dustbinObj=new Dustbin(1200,650);
 	//Create a Ground
 	
 	
